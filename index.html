@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Excel to Json</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Excel to Json / Json to MySQL</title>
 	<script src="xlsx.full.min.js"></script>
 </head>
 <body>
+
+	<h1>XLSX to Json transform Successfully!</h1>
+	<br>
+	<hr>
+	<br>
+	<h2>Do you want transform JSON to store in DB?</h2>
+	<a href="json_mysql.php">Click Here!</a>
+
+
 	<script>
 		/* set up XMLHttpRequest */
-		var url = "test.xlsx";
+		var url = "vuelos18oct.xlsx"; // Aqui se cambia el nombre del archivo Excel a transformar en JSON
 		var oReq = new XMLHttpRequest();
 		oReq.open("GET", url, true);
 		oReq.responseType = "arraybuffer";

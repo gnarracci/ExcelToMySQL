@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Chris Pratt",
+    "gender": "Male",
+    "designation": "Systems"
+  },
+  {
+    "name": "Gianni Narracci",
+    "gender": "Male",
+    "designation": "Systems"
+  },
+  {
+    "name": "Maria Sanchez",
+    "gender": "Female",
+    "designation": "Sales"
+  },
+  {
+    "name": "Anna Narracci",
+    "gender": "Female",
+    "designation": "Nurse"
+  },
+  {
+    "name": "Cesar Maldonado",
+    "gender": "Male",
+    "designation": "IT"
+  }
+]
